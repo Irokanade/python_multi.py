@@ -10,4 +10,4 @@ def multi(n,x,y):
 x = lambda n,x,y: [i for i in range(x,n,x) if i%y != 0] if n >= max(x,y) else []
 
 print(multi(45,21,15))
-print(type(x(45,21,15)))
+print(x(45,21,15))
